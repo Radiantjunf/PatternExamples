@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{D363C9AE-95A2-48C6-9F1D-66203D4DE2BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{D363C9AE-95A2-48C6-9F1D-66203D4DE2BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPatternSolved", "FactoryMethodPatternSolved\FactoryMethodPatternSolved.csproj", "{135481AA-97D4-43FD-8B27-DA85EA42514E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPatternSolved", "FactoryMethodPatternSolved\FactoryMethodPatternSolved.csproj", "{135481AA-97D4-43FD-8B27-DA85EA42514E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{872C956D-7AB6-43BC-B044-4CFC750758B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPatternSolved", "StrategyPattern\StrategyPatternSolved.csproj", "{872C956D-7AB6-43BC-B044-4CFC750758B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{4E9D0D14-003C-4E0E-ACCF-794E20974CC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{4E9D0D14-003C-4E0E-ACCF-794E20974CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternSolved", "DecoratorPatternSolved\DecoratorPatternSolved.csproj", "{DDBE6D85-3FC2-402C-8564-487806232DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPatternSolved", "DecoratorPatternSolved\DecoratorPatternSolved.csproj", "{DDBE6D85-3FC2-402C-8564-487806232DE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{E6D57BB1-447F-46BE-8909-FC6292A1FFB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DDBE6D85-3FC2-402C-8564-487806232DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDBE6D85-3FC2-402C-8564-487806232DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDBE6D85-3FC2-402C-8564-487806232DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D57BB1-447F-46BE-8909-FC6292A1FFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D57BB1-447F-46BE-8909-FC6292A1FFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D57BB1-447F-46BE-8909-FC6292A1FFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D57BB1-447F-46BE-8909-FC6292A1FFB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

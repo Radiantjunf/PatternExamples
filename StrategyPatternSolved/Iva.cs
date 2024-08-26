@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethodPattern
+namespace StrategyPattern
 {
-    public class Iva
+    public class Iva : IDeclaration
     {
-        public void Validate()
+        public bool Validate()
         {
             Console.WriteLine("A validar o iva");
+            return true;
         }
     }
 }

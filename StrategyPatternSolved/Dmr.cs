@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethodPattern
+namespace StrategyPattern
 {
-    public class Dmr
+    public class Dmr : IDeclaration
     {
-        public void Validate()
+        public bool Validate()
         {
             Console.WriteLine("A validar o dmr");
+            return true;
         }
     }
 }

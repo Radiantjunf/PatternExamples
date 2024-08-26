@@ -1,28 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyPattern
+namespace FactoryMethodPattern
 {
     public class DeclarationService
     {
-        private IDeclaration _declaration;
-
-        public DeclarationService(IDeclaration declaration)
+        public void Validate(string declaration)
         {
-            _declaration = declaration;
+            if (declaration == "dmr")
+            {
+                Dmr dmr = new Dmr();
+                dmr.Validate();
+            }
+            else if (declaration == "iva")
+            {
+                Iva iva = new Iva();
+                iva.Validate();
+            }
+            else
+            {
+                Console.WriteLine("Declaração invalida.");
+            }
         }
 
-        public void SetDeclaration(IDeclaration declaration)
-        {
-            _declaration = declaration;
-        }
 
-        public bool Validate()
-        {
-            return _declaration.Validate();
-        }
     }
 }

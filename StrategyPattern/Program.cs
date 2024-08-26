@@ -1,18 +1,12 @@
-﻿namespace StrategyPattern
+﻿namespace FactoryMethodPattern
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            IDeclaration dmr = new Dmr();
-            IDeclaration iva = new Iva();
-
-
-            DeclarationService context = new DeclarationService(dmr);
-            context.Validate();
-
-            context.SetDeclaration(iva);
-            context.Validate();
+            DeclarationService service = new DeclarationService();
+            service.Validate("dmr");
+            service.Validate("iva");
         }
     }
 }
